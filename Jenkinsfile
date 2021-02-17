@@ -1,12 +1,8 @@
 @Library('My_First_Shared_Library')_
+
 pipeline {
     agent any
-         stages {
-            stage('Demo'){
-                steps {
-                    echo 'Hello world'
-                    sayHello 'Dave'
-        }
-    }
-}
+    stage('Demo') {
+    echo 'Hello Worlds'
+    sayHello 'Mike'
 }
