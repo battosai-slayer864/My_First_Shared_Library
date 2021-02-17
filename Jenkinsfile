@@ -1,11 +1,6 @@
-@Library('My_First_Shared_Library')_
+@Library('My_First_Shared_Library')
 
-pipeline {
-    agent any
-    stages{
-        stage('Demo') {
-        echo 'Hello Worlds'
-        sayHello 'Mike'
-     }
-   }
+stage('Demo'){
+    echo 'Hello world'
+    sayHello 'Dave'
 }
