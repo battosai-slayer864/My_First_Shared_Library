@@ -2,8 +2,6 @@
 
 pipeline {
     agent any
-}
-
 stages{
     stage('Demo') {
         steps {
@@ -11,4 +9,5 @@ stages{
             sayHello 'Ervin'
         }
     }    
+}
 }
